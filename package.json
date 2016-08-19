@@ -1,0 +1,25 @@
+{
+    "name": "Route53DDNS.js",
+    "version": "0.0.1",
+    "description": "A little DDNS updater for Route 53, using Node.js.",
+    "author": "Nathan Douglas <github@tenesm.us",
+    "main": "Route53DDNS.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ndouglas/Route53DDNS.git"
+    },
+    "keywords": [
+        "ddns",
+        "route53",
+        "dns"
+    ],
+    "dependencies": {
+        "is-ip": "1.0.0",
+        "public-ip": "1.0.3",
+        "aws-sdk": "2.1.45"
+    },
+    "preferGlobal": false,
+    "private": true,
+    "analyze": true,
+    "license": "Public Domain"
+}
